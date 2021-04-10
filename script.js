@@ -11,7 +11,7 @@ request.onload = function() {
     }
     for (let i of latlng) {
         let req = new XMLHttpRequest();
-        let url_string1 = `http://api.openweathermap.org/data/2.5/weather?lat=${i[0]}&lon=${i[1]}&units=metric&appid=916acdf9ccc6be948a3f32ad2eb6b918`;
+        let url_string1 = `https://api.openweathermap.org/data/2.5/weather?lat=${i[0]}&lon=${i[1]}&units=metric&appid=916acdf9ccc6be948a3f32ad2eb6b918`;
 
         req.open('GET',url_string1,true);
 
